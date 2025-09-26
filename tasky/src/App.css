@@ -99,3 +99,18 @@ form {
   width: 50%;
   margin: auto;
 }
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+input[type="text"],
+select {
+  font-size: 16px;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
